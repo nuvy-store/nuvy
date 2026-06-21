@@ -33,15 +33,15 @@ Please confirm and share payment details. Thank you.`;
    ====================================================== */
 const PRODUCTS = [
   {
-    id: 'cacao-almond',
-    name: 'Cacao Almond Crunch x10',
-    flavor: 'flavor-cacao',
-    image: null,
-    ingredients: 'dates · cacao · almonds',
-    tagline: 'Rich cacao rolled in toasted almond, sweetened only with dates.',
-    description: 'A dark cacao base rolled in toasted almond pieces, sweetened only with dates — no refined sugar, no fillers.',
+    id: 'coconut-almond',
+    name: 'Coconut Almond Crunch x10',
+    flavor: 'flavor-coconut',
+    image: 'images/coconut-almond.png',
+    ingredients: 'coconut · dates · almonds',
+    tagline: 'Rich almonds rolled in toasted coconut, sweetened only with dates.',
+    description: 'A coconut base rolled in toasted almond pieces, sweetened only with dates — no refined sugar, no fillers.',
     unitNote: 'Each box holds about 10 hand-rolled bites.',
-    fullIngredients: 'Dates, raw cacao powder, almonds, a pinch of sea salt.',
+    fullIngredients: 'Dates, coconut flakes, almonds, a pinch of sea salt.',
     nutrition: 'Approx. 140 kcal · 5g protein · 9g sugar (from dates only) per bite.',
     allergens: 'Contains tree nuts (almonds). Made in a kitchen that also handles peanuts, pistachios and walnuts.',
     storage: 'Store in a cool, dry place. Keeps fresh up to 2 weeks at room temperature, or a month refrigerated.',

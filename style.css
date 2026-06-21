@@ -260,6 +260,7 @@ section{ padding:88px 24px; }
 .ball-sm{ width:88px; height:88px; }
 .ball-card{ width:96px; height:96px; margin:0 auto 18px; }
 
+
 @media (max-width:860px){
   .hero-inner{ grid-template-columns:1fr; }
   .hero-visual{ height:280px; order:-1; }
