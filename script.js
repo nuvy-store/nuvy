@@ -25,7 +25,7 @@ function buildOrderMessage(qty, name, unitPrice, total) {
 const PRODUCTS = [
   {
     id: 'cacao-almond',
-    name: 'Cacao Almond Crunch',
+    name: 'Cacao Almond Crunch x10',
     flavor: 'flavor-cacao',
     image: null,
     ingredients: 'dates · cacao · almonds',
@@ -69,21 +69,6 @@ const PRODUCTS = [
     price: 89
   },
   {
-    id: 'matcha-pistachio',
-    name: 'Matcha Pistachio',
-    flavor: 'flavor-matcha',
-    image: null,
-    ingredients: 'matcha · pistachio · dates',
-    tagline: 'Earthy matcha and roasted pistachio, naturally sweetened with dates.',
-    description: 'Earthy matcha rolled with roasted pistachio and dates — gently sweet, distinctly green.',
-    unitNote: 'Each box holds about 10 hand-rolled bites.',
-    fullIngredients: 'Dates, roasted pistachios, ceremonial-grade matcha powder.',
-    nutrition: 'Approx. 145 kcal · 5g protein · 9g sugar (from dates only) per bite.',
-    allergens: 'Contains tree nuts (pistachios). Made in a kitchen that also handles almonds and walnuts.',
-    storage: 'Store in a cool, dry place. Keeps fresh up to 2 weeks at room temperature, or a month refrigerated.',
-    price: 99
-  },
-  {
     id: 'chai-walnut',
     name: 'Spiced Chai Walnut',
     flavor: 'flavor-chai',
@@ -112,21 +97,6 @@ const PRODUCTS = [
     allergens: 'Contains tree nuts (almonds). Made in a kitchen that also handles peanuts and walnuts.',
     storage: 'Store in a cool, dry place. Keeps fresh up to 2 weeks at room temperature, or a month refrigerated.',
     price: 99
-  },
-   {
-    id: 'espresso',
-    name: 'Espresso Almond Boost',
-    flavor: 'flavor-espresso',
-    image: null,
-    ingredients: 'espresso · almond · cacao',
-    tagline: 'A real coffee kick paired with almond and dark cacao.',
-    description: 'A genuine coffee kick from real espresso, balanced with almond and dark cacao — built for early mornings.',
-    unitNote: 'Each box holds about 10 hand-rolled bites.',
-    fullIngredients: 'Dates, almonds, raw cacao powder, finely ground espresso.',
-    nutrition: 'Approx. 145 kcal · 5g protein · 9g sugar (from dates only) per bite. Contains caffeine.',
-    allergens: 'Contains tree nuts (almonds). Made in a kitchen that also handles peanuts and walnuts.',
-    storage: 'Store in a cool, dry place. Keeps fresh up to 2 weeks at room temperature, or a month refrigerated.',
-    price: 67
   }
 ];
 
