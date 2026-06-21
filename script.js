@@ -9,7 +9,16 @@ const WHATSAPP_NUMBER = '212675535823';
 // The message sent to you on WhatsApp when someone orders.
 // {qty}, {name}, {unitPrice} and {total} get filled in automatically.
 function buildOrderMessage(qty, name, unitPrice, total) {
-  return `Hi NUVY! I'd like to order ${qty} x ${name} (${unitPrice} DH each) — Total: ${total} DH. Please confirm and send your payment details.`;
+  return `Hello NUVY ,
+I would like to place the following order:
+
+Flavor: ${name}
+Quantity: ${qty}
+Price per box: ${unitPrice} DH
+===================================
+*Total: ${total} DH*
+
+Please confirm and share payment details. Thank you.`;
 }
 
 /* ======================================================
@@ -40,7 +49,7 @@ const PRODUCTS = [
   },
   {
     id: 'peanut-power',
-    name: 'Peanut Butter Power',
+    name: 'Peanut Butter Power x10',
     flavor: 'flavor-peanut',
     image: null,
     ingredients: 'oats · peanut butter · maple',
@@ -55,7 +64,7 @@ const PRODUCTS = [
   },
   {
     id: 'coconut-lime',
-    name: 'Coconut Lime Refresher',
+    name: 'Coconut Lime Refresher x10',
     flavor: 'flavor-coconut',
     image: null,
     ingredients: 'coconut · cashew · lime',
@@ -70,7 +79,7 @@ const PRODUCTS = [
   },
   {
     id: 'chai-walnut',
-    name: 'Spiced Chai Walnut',
+    name: 'Spiced Chai Walnut x10',
     flavor: 'flavor-chai',
     image: null,
     ingredients: 'walnut · chai spice · dates',
@@ -85,7 +94,7 @@ const PRODUCTS = [
   },
   {
     id: 'espresso-almond',
-    name: 'Espresso Almond Boost',
+    name: 'Espresso Almond Boost x10',
     flavor: 'flavor-espresso',
     image: null,
     ingredients: 'espresso · almond · cacao',
