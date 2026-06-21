@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>NUVY — Take NUVY and Enjoy It</title>
+<meta name="description" content="Vegan, protein-rich energy bites handmade in Marrakech. Five ingredients or fewer, no refined sugar. Order on WhatsApp, pay by bank transfer, shipped across Morocco.">
+
+<link rel="icon" type="image/png" href="images/favicon.png">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600;9..144,700&family=Outfit:wght@300;400;500;600;700&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="nav" id="top">
+  <div class="nav-inner">
+    <!-- LOGO: wordmark image, see images/logo-wordmark.png -->
+    <a href="#top" class="logo"><img src="images/logo-wordmark.png" alt="NUVY" class="logo-img"></a>
+    <button class="nav-toggle" id="navToggle" aria-label="Open menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+    <nav class="nav-links" id="navLinks">
+      <a href="#shop">Shop</a>
+      <a href="#story">Our story</a>
+      <a href="#faq">FAQ</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <a href="#shop" class="nav-cta">Shop now</a>
+  </div>
+</header>
+
+<main>
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="hero-inner">
+      <div class="hero-text reveal">
+        <p class="eyebrow">Marrakech · Vegan · Handmade</p>
+        <h1>Energy you can pronounce.</h1>
+        <p class="hero-sub">Five ingredients or fewer. 100% plant-based, packed with protein, no refined sugar — just dates, nuts and real food rolled by hand into something you'll actually crave at 3pm. Made in Marrakech, shipped across Morocco.</p>
+        <div class="hero-actions">
+          <a href="#shop" class="btn btn-primary">Shop the bites</a>
+          <a href="#story" class="btn btn-ghost">Our story</a>
+        </div>
+        <ul class="trust-row">
+          <li>Made fresh weekly</li>
+          <li>Ships across Morocco</li>
+          <li>Vegan &amp; protein-rich</li>
+        </ul>
+      </div>
+      <div class="hero-visual reveal" aria-hidden="true">
+        <div class="ball ball-lg flavor-cacao" style="--x:6%; --y:24%;"></div>
+        <div class="ball ball-md flavor-matcha" style="--x:54%; --y:2%;"></div>
+        <div class="ball ball-sm flavor-chai" style="--x:62%; --y:58%;"></div>
+        <div class="stamp">100% plant-based</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- VALUE STRIP -->
+  <section class="value-strip reveal">
+    <ul>
+      <li>100% vegan</li>
+      <li>Rolled by hand</li>
+      <li>High in plant protein</li>
+      <li>Ships across Morocco</li>
+    </ul>
+  </section>
+
+  <!-- SHOP -->
+  <section class="shop" id="shop">
+    <div class="section-head reveal">
+      <p class="eyebrow">The lineup</p>
+      <h2>Pick your flavor</h2>
+      <p style="max-width:48ch;margin:0 auto;">Order on WhatsApp, we'll confirm your total and send our bank transfer details — no card needed.</p>
+    </div>
+
+    <div class="product-grid" id="productGrid">
+      <!-- Product cards are rendered automatically from the PRODUCTS list in script.js -->
+    </div>
+  </section>
+
+  <!-- STORY -->
+  <section class="story" id="story">
+    <div class="story-inner">
+      <div class="story-text reveal">
+        <p class="eyebrow">How it started</p>
+        <h2>One kitchen in Marrakech. One bowl at a time.</h2>
+        <p>NUVY started in a small kitchen in Marrakech, rolling dates and nuts into something better than the bars on the supermarket shelf — same energy, none of the ingredients you can't pronounce. Every bite is still mixed, rolled and packed by hand before it ships to you.</p>
+      </div>
+      <div class="story-stats reveal">
+        <div><strong>5</strong><span>core ingredients, max</span></div>
+        <div><strong>100%</strong><span>vegan &amp; handmade</span></div>
+        <div><strong>0g</strong><span>refined sugar</span></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- TESTIMONIALS — placeholder content, see README -->
+  <section class="testimonials">
+    <div class="section-head reveal">
+      <p class="eyebrow">What people say</p>
+      <h2>From the inbox</h2>
+    </div>
+    <div class="testimonial-grid">
+      <article class="testimonial-card reveal">
+        <p class="stars" aria-hidden="true">★★★★★</p>
+        <p class="testimonial-quote">"These have replaced my 4pm coffee run. Filling, not too sweet, and I can actually pronounce every ingredient."</p>
+        <p class="testimonial-name">Yasmine — Casablanca</p>
+      </article>
+      <article class="testimonial-card reveal">
+        <p class="stars" aria-hidden="true">★★★★★</p>
+        <p class="testimonial-quote">"Ordered the matcha pistachio on a whim. Now it's a standing order every two weeks."</p>
+        <p class="testimonial-name">Omar — Rabat</p>
+      </article>
+      <article class="testimonial-card reveal">
+        <p class="stars" aria-hidden="true">★★★★★</p>
+        <p class="testimonial-quote">"Finally an energy ball that isn't secretly a candy bar. The cacao almond is my favorite."</p>
+        <p class="testimonial-name">Salma — Marrakech</p>
+      </article>
+    </div>
+  </section>
+
+  <!-- HOW IT WORKS -->
+  <section class="how">
+    <div class="section-head reveal">
+      <p class="eyebrow">Ordering</p>
+      <h2>From WhatsApp to your door</h2>
+    </div>
+    <ol class="steps">
+      <li class="reveal">
+        <span class="step-num">01</span>
+        <h3>Pick a flavor & quantity</h3>
+        <p>Tap "Buy now" on any flavor, choose how many boxes you want, and send your order on WhatsApp.</p>
+      </li>
+      <li class="reveal">
+        <span class="step-num">02</span>
+        <h3>We confirm &amp; send payment details</h3>
+        <p>We'll confirm your total and share our bank transfer details (RIB).</p>
+      </li>
+      <li class="reveal">
+        <span class="step-num">03</span>
+        <h3>You transfer, we ship</h3>
+        <p>Once payment is confirmed, your order is packed fresh and shipped across Morocco.</p>
+      </li>
+    </ol>
+  </section>
+
+  <!-- FAQ -->
+  <section class="faq" id="faq">
+    <div class="section-head reveal">
+      <p class="eyebrow">Questions</p>
+      <h2>Good to know</h2>
+    </div>
+    <div class="faq-list reveal">
+      <details>
+        <summary>Do you ship across Morocco?</summary>
+        <p>Yes — we ship to every city in Morocco. Delivery usually takes 2–4 business days depending on your location.</p>
+      </details>
+      <details>
+        <summary>Are NUVY bites vegan?</summary>
+        <p>Yes — every flavor is 100% plant-based, naturally sweetened with dates or maple syrup, and a good source of plant protein.</p>
+      </details>
+      <details>
+        <summary>Do they contain allergens?</summary>
+        <p>Most flavors contain tree nuts. Each product card lists its core ingredients — check before ordering if you have allergies.</p>
+      </details>
+      <details>
+        <summary>How long do they stay fresh?</summary>
+        <p>Up to 2 weeks at room temperature, or up to a month refrigerated.</p>
+      </details>
+      <details>
+        <summary>How do I pay?</summary>
+        <p>Every flavor has an "Order on WhatsApp" button. Message us there and we'll confirm your total and send our bank transfer details — no card or account needed.</p>
+      </details>
+    </div>
+  </section>
+
+</main>
+
+<footer class="footer" id="contact">
+  <div class="footer-inner">
+    <div class="footer-brand">
+      <img src="images/logo-main-cream.png" alt="NUVY — Take NUVY, and enjoy it" class="footer-logo-img">
+    </div>
+    <div class="footer-links">
+      <a href="#shop">Shop</a>
+      <a href="#story">Our story</a>
+      <a href="#faq">FAQ</a>
+      <a href="https://wa.me/212600000000" target="_blank" rel="noopener">WhatsApp</a>
+    </div>
+  </div>
+  <p class="footer-bottom">© 2026 NUVY. All rights reserved. Marrakech, Morocco.</p>
+</footer>
+
+<div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+<script src="script.js"></script>
+</body>
+</html>
