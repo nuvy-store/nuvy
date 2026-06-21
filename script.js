@@ -114,7 +114,7 @@ const PRODUCTS = [
     price: 99
   },
    {
-    id: 'espresso-almond',
+    id: 'espresso',
     name: 'Espresso Almond Boost',
     flavor: 'flavor-espresso',
     image: null,
