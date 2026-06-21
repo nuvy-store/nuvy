@@ -126,7 +126,7 @@ const PRODUCTS = [
     nutrition: 'Approx. 145 kcal · 5g protein · 9g sugar (from dates only) per bite. Contains caffeine.',
     allergens: 'Contains tree nuts (almonds). Made in a kitchen that also handles peanuts and walnuts.',
     storage: 'Store in a cool, dry place. Keeps fresh up to 2 weeks at room temperature, or a month refrigerated.',
-    price: 9999
+    price: 10000
   }
 ];
 
