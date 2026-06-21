@@ -112,6 +112,21 @@ const PRODUCTS = [
     allergens: 'Contains tree nuts (almonds). Made in a kitchen that also handles peanuts and walnuts.',
     storage: 'Store in a cool, dry place. Keeps fresh up to 2 weeks at room temperature, or a month refrigerated.',
     price: 99
+  },
+   {
+    id: 'espresso-almond',
+    name: 'Espresso Almond Boost',
+    flavor: 'flavor-espresso',
+    image: null,
+    ingredients: 'espresso · almond · cacao',
+    tagline: 'A real coffee kick paired with almond and dark cacao.',
+    description: 'A genuine coffee kick from real espresso, balanced with almond and dark cacao — built for early mornings.',
+    unitNote: 'Each box holds about 10 hand-rolled bites.',
+    fullIngredients: 'Dates, almonds, raw cacao powder, finely ground espresso.',
+    nutrition: 'Approx. 145 kcal · 5g protein · 9g sugar (from dates only) per bite. Contains caffeine.',
+    allergens: 'Contains tree nuts (almonds). Made in a kitchen that also handles peanuts and walnuts.',
+    storage: 'Store in a cool, dry place. Keeps fresh up to 2 weeks at room temperature, or a month refrigerated.',
+    price: 9999
   }
 ];
 
