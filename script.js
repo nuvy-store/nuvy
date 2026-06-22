@@ -46,22 +46,22 @@ const PRODUCTS = [
     allergens: 'Contains tree nuts (almonds). Made in a kitchen that also handles peanuts, pistachios and walnuts.',
     storage: 'Store in a cool, dry place. Keeps fresh up to 2 weeks at room temperature, or a month refrigerated.',
     price: 89
+  },
+  {
+    id: 'Lemon-Coconut',
+    name: 'Lemon Coconut Bite x10',
+    flavor: 'flavor-lemon',
+    image: 'images/Lemon-Coconut-Bite.png',
+    ingredients: 'lemon · cashews · coconut',
+    tagline: 'Creamy cashews and sweet Medjool dates, brightened with fresh lemon and finished with delicate coconut flakes.',
+    description: 'Rich cashews and sweet dates create a filling bite, balanced with zesty lemon and a delicate coconut finish.',
+    unitNote: 'Each box holds about 10 hand-rolled bites.',
+    fullIngredients: 'lemon and coconut flakes, peanut butter, vanilla, a pinch of sea salt.',
+    nutrition: '# Approx. 150 kcal · 6g protein · 7g sugar per bite.',
+    allergens: 'Contains peanuts. Made in a kitchen that also handles tree nuts.',
+    storage: 'Store in a cool, dry place. Keeps fresh up to 2 weeks at room temperature, or a month refrigerated.',
+    price: 99
   }
-  // {
-  //   id: 'peanut-power',
-  //   name: 'Peanut Butter Power x10',
-  //   flavor: 'flavor-peanut',
-  //   image: null,
-  //   ingredients: 'oats · peanut butter · maple',
-  //   tagline: 'Creamy peanut butter and rolled oats, a touch of maple syrup.',
-  //   description: 'Rolled oats and real peanut butter for a snack that actually keeps you full, lightly sweetened with maple syrup.',
-  //   unitNote: 'Each box holds about 10 hand-rolled bites.',
-  //   fullIngredients: 'Rolled oats, peanut butter, maple syrup, a pinch of sea salt.',
-  //   nutrition: 'Approx. 150 kcal · 6g protein · 7g sugar per bite.',
-  //   allergens: 'Contains peanuts. Made in a kitchen that also handles tree nuts.',
-  //   storage: 'Store in a cool, dry place. Keeps fresh up to 2 weeks at room temperature, or a month refrigerated.',
-  //   price: 89
-  // },
   // {
   //   id: 'coconut-lime',
   //   name: 'Coconut Lime Refresher x10',
