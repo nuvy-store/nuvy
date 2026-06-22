@@ -187,9 +187,16 @@ if (productGrid) {
         <a href="product.html?id=${p.id}" class="btn btn-buy">Buy now</a>
       </div>
     </article>
-  `).join('');
+  `).join('') + `
+    <article class="product-card reveal">
+      <p class="stamp-tag">More flavors on the way</p>
+      <h3>Coming Soon</h3>
+      <p class="product-desc">New recipes are in the kitchen. Stay tuned.</p>
+    </article>
+  `;
   setupReveal(productGrid);
 }
+//<div class="ball ball-card flavor-matcha" aria-hidden="true"></div>
 
 /* ======================================================
    PRODUCT PAGE — render detail + quantity calculator
