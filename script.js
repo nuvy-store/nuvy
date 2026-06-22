@@ -188,7 +188,7 @@ if (productGrid) {
       </div>
     </article>
   `).join('') + `
-    <article class="product-card reveal">
+    <article class="product-card coming-soon reveal" style="display:flex; flex-direction:column; align-items:center; justify-content:center; text-align:center;">
       <p class="stamp-tag">More flavors on the way</p>
       <h3>Coming Soon</h3>
       <p class="product-desc">New recipes are in the kitchen. Stay tuned.</p>
