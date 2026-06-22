@@ -45,6 +45,7 @@ const PRODUCTS = [
     nutrition: 'Approx. 140 kcal · 5g protein · 9g sugar (from dates only) per bite.',
     allergens: 'Contains tree nuts (almonds). Made in a kitchen that also handles peanuts, pistachios and walnuts.',
     storage: 'Store in a cool, dry place. Keeps fresh up to 2 weeks at room temperature, or a month refrigerated.',
+    oldPrice: 109,
     price: 89
   },
   {
@@ -60,6 +61,7 @@ const PRODUCTS = [
     nutrition: '# Approx. 150 kcal · 6g protein · 7g sugar per bite.',
     allergens: 'Contains peanuts. Made in a kitchen that also handles tree nuts.',
     storage: 'Store in a cool, dry place. Keeps fresh up to 2 weeks at room temperature, or a month refrigerated.',
+    oldPrice: 129,
     price: 99
   }
   // {
@@ -183,7 +185,10 @@ if (productGrid) {
       <h3>${p.name}</h3>
       <p class="product-desc">${p.tagline}</p>
       <div class="product-footer">
-        <span class="price">${p.price} DH</span>
+        <div class="price-wrapper">
+          <span class="price-old">${p.oldPrice} DH</span>
+          <span class="price">${p.price} DH</span>
+        </div>
         <a href="product.html?id=${p.id}" class="btn btn-buy">Buy now</a>
       </div>
     </article>

@@ -374,6 +374,19 @@ section{ padding:88px 24px; }
   border: none;
 }
 
+.price-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.price-old {
+  text-decoration: line-through;
+  color: #6b6969;
+  font-size: 0.85em;
+  opacity: 0.9;
+}
+
 .product-page{ background:var(--white); padding:56px 24px 72px; }
 .product-page-inner{ max-width:var(--container); margin:0 auto; }
 .back-link{
