@@ -15,7 +15,7 @@ I would like to place the following order:
 Flavor: ${name}
 Quantity: ${qty}
 Price per box: ${unitPrice} DH
-===================================
+==================================
 *Total: ${total} DH*
 
 Please confirm and share payment details. Thank you.`;
