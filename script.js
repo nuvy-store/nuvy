@@ -54,7 +54,7 @@ const PRODUCTS = [
     flavor: 'flavor-lemon',
     image: 'images/Lemon-Coconut-Bite.png',
     ingredients: 'lemon · cashews · coconut',
-    tagline: 'Creamy cashews and sweet Medjool dates, brightened with fresh lemon and finished with delicate coconut flakes.',
+    tagline: 'Creamy cashews and sweet Medjool dates, brightened with fresh lemon and coconut flakes.',
     description: 'Rich cashews and sweet dates create a filling bite, balanced with zesty lemon and a delicate coconut finish.',
     unitNote: 'Each box holds about 10 hand-rolled bites.',
     fullIngredients: 'lemon and coconut flakes, peanut butter, vanilla, a pinch of sea salt.',
