@@ -45,8 +45,8 @@ const PRODUCTS = [
     nutrition: 'Approx. 140 kcal · 5g protein · 9g sugar (from dates only) per bite.',
     allergens: 'Contains tree nuts (almonds). Made in a kitchen that also handles peanuts, pistachios and walnuts.',
     storage: 'Store in a cool, dry place. Keeps fresh up to 2 weeks at room temperature, or a month refrigerated.',
-    oldPrice: 109,
-    price: 89
+    oldPrice: 70,
+    price: 49
   },
   {
     id: 'Lemon-Coconut',
