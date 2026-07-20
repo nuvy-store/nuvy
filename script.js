@@ -9,8 +9,8 @@ const WHATSAPP_NUMBER = '212675535823';
 // The message sent to you on WhatsApp when someone orders.
 // {qty}, {name}, {unitPrice} and {total} get filled in automatically.
 function buildOrderMessage(qty, name, unitPrice, total, location, deliveryFee) {
-  return `Hello NUVY ,
-I would like to place the following order:
+  return `مرحبًا بفريق NUVY,
+أرغب في طلب المنتج التالي:
 
 Flavor: ${name}
 Quantity: ${qty}
@@ -20,7 +20,8 @@ Delivery fee: ${deliveryFee || 0} DH
 ==================================
 *Total: ${total} DH*
 
-Please confirm and share payment details. Thank you.`;
+بانتظار تأكيدكم وإرسال تفاصيل الدفع.
+شكرًا لكم.`;
 }
 
 /* ======================================================
