@@ -401,8 +401,8 @@ section{ padding:88px 24px; }
   position: absolute;
   top: -4%;
   left: 1%;
-  width: clamp(50px, 8vw, 92px);
-  height: clamp(50px, 8vw, 92px);
+  width: clamp(50px, 8vw, 100px);
+  height: clamp(50px, 8vw, 100px);
   background: #e74c3c;
   border-radius: 50% 50% 50% 50% / 40% 40% 60% 60%;
   display: flex;
@@ -420,7 +420,7 @@ section{ padding:88px 24px; }
  }
 
 .badge-off span:first-child {
-  font-size: clamp(1.1rem, 3vw, 2rem);
+  font-size: clamp(1.1rem, 3vw, 1.8rem);
 }
 
 .badge-off span:last-child {
