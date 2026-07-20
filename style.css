@@ -215,13 +215,14 @@ section{ padding:88px 24px; }
   position:absolute;
   bottom:0%;
   right:4%;
-  width:80px; height:80px;
+  width: clamp(65px, 12vw, 120px); 
+  height: clamp(65px, 12vw, 120px);
   border:1.5px dashed var(--charcoal);
   border-radius:50%;
   display:flex; align-items:center; justify-content:center;
   text-align:center;
   font-family:var(--font-mono);
-  font-size:0.62rem;
+  font-size: clamp(0.5rem, 1.6vw, 0.92rem);
   text-transform:uppercase;
   letter-spacing:0.04em;
   padding:14px;
@@ -398,10 +399,10 @@ section{ padding:88px 24px; }
 
 .badge-off {
   position: absolute;
-  top: 6%;
-  left: 8%;
-  width: 60px;
-  height: 60px;
+  top: -4%;
+  left: 1%;
+  width: clamp(50px, 8vw, 92px);
+  height: clamp(50px, 8vw, 92px);
   background: #e74c3c;
   border-radius: 50% 50% 50% 50% / 40% 40% 60% 60%;
   display: flex;
@@ -419,12 +420,12 @@ section{ padding:88px 24px; }
  }
 
 .badge-off span:first-child {
-  font-size: 1.2rem;
+  font-size: clamp(1.1rem, 3vw, 2rem);
 }
 
 .badge-off span:last-child {
-  font-size: 0.65rem;
-  letter-spacing: 0.08em;
+  font-size: clamp(0.5em, 3vw, 1rem);
+  letter-spacing: 0.09em;
 }
 
 .badge-off::before {
