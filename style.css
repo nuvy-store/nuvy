@@ -213,9 +213,9 @@ section{ padding:88px 24px; }
 }
 .stamp{
   position:absolute;
-  bottom:6%;
+  bottom:0%;
   right:4%;
-  width:clamp(90px, 16vw, 120px); height:clamp(90px, 16vw, 120px);
+  width:80px; height:80px;
   border:1.5px dashed var(--charcoal);
   border-radius:50%;
   display:flex; align-items:center; justify-content:center;
@@ -400,8 +400,8 @@ section{ padding:88px 24px; }
   position: absolute;
   top: 6%;
   left: 8%;
-  width: clamp(56px, 10vw, 78px);
-  height: clamp(56px, 10vw, 78px);
+  width: 60px;
+  height: 60px;
   background: #e74c3c;
   border-radius: 50% 50% 50% 50% / 40% 40% 60% 60%;
   display: flex;
@@ -410,7 +410,7 @@ section{ padding:88px 24px; }
   justify-content: center;
   color: #fff;
   font-family: 'Outfit', sans-serif;
-  font-weight: 700;
+  font-weight: 600;
   line-height: 1.1;
   box-shadow: 0 4px 16px rgba(231,76,60,0.25);
   z-index: 10;
@@ -419,7 +419,7 @@ section{ padding:88px 24px; }
  }
 
 .badge-off span:first-child {
-  font-size: 1.4rem;
+  font-size: 1.2rem;
 }
 
 .badge-off span:last-child {
