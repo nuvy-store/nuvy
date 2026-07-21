@@ -290,7 +290,11 @@ if (productDetail) {
           <p class="delivery-label">Where are you ordering from?</p>
           <p class="delivery-error" id="deliveryError" style="display:none;">⚠ Please select where you're ordering from</p>
           <div class="delivery-options">
-            <button type="button" class="delivery-option" id="deliveryMarrakech">Marrakech <span>(+18 DH)</span></button>
+            <button type="button" class="delivery-option" id="deliveryMarrakech"> 
+            
+            <span class="free-shipping-badge">Free Shipping</span>
+
+            Marrakech <span>0 DH</span>  </button>
             <button type="button" class="delivery-option" id="deliveryOther">Outside Marrakech <span>(+30 DH)</span></button>
           </div>
           <select id="citySelect" class="city-select" style="display:none;">
@@ -379,7 +383,7 @@ if (productDetail) {
     });
 
     deliveryMarrakechBtn.addEventListener('click', () => {
-      deliveryFee = 15;
+      deliveryFee = 0;
       deliveryLocation = 'Marrakech';
       deliveryMarrakechBtn.classList.add('is-active');
       deliveryOtherBtn.classList.remove('is-active');
